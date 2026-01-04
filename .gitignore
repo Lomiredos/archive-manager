@@ -1,0 +1,87 @@
+# ============================================================================
+# BUILD / COMPILATION
+# ============================================================================
+
+# Dossier de build CMake
+build/
+Build/
+BUILD/
+
+# Fichiers de build alternatifs
+out/
+bin/
+Debug/
+Release/
+
+# Fichiers CMake temporaires
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cmake
+!CMakeLists.txt
+
+# Exécutables
+*.exe
+*.out
+*.app
+
+# Fichiers objets
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dll
+*.dylib
+
+# ============================================================================
+# IDE / ÉDITEURS
+# ============================================================================
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# Visual Studio
+.vs/
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+
+# CLion / JetBrains
+.idea/
+cmake-build-*/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# ============================================================================
+# SYSTÈME
+# ============================================================================
+
+# Windows
+Thumbs.db
+Desktop.ini
+*.lnk
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux
+*~
+.directory
+
+
+# Fichiers de backup
+*.bak
+*.tmp
+*.swp
+*.swo
+
+# Logs
+*.log
